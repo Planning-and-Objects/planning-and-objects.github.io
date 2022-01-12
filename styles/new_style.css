@@ -1,0 +1,79 @@
+header {
+  font-family: Arial Black, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial Black, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: Arial Black;
+  color: black;
+  margin-left: 20px;
+}
+
+h2 {
+  font-family: Arial Black;
+  color: black;
+  margin-left: 20px;
+}
+
+h3 {
+  color: black;
+  margin-left: 20px;
+}
+
+p {
+  color: black;
+  margin-left: 20px;
+}
+
+img {
+  margin: auto;
+  max-width: 100%;
+}
+
+* {box-sizing: border-box}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  background-color: #000000;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 17px;
+  width: 50%; 
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block-flex;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+} 
+
+@font-face {
+  font-family: Arial Black;
+  src: url(/fonts/arial-black.ttf);
+  font-stretch: font-stretch Property;
+  font-weight: font-weight Property;
+  font-style: font-style Property;
+}
+
+

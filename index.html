@@ -1,53 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VLM64W1T5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8">
+  <title>Planning and Objects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  gtag('config', 'G-5VLM64W1T5');
-</script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VLM64W1T5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5VLM64W1T5');
+  </script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Planning and Objects</title>
-    <link rel="stylesheet" type="text/css" href="/styles/new_style.css">
- 
- <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
-    </style>
+  <!-- Shared Styles -->
+  <link rel="stylesheet" href="/styles/site.css">
 
+  <!-- Image centering override -->
+  <style>
+    .imgbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .center-fit {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .nav-links {
+      margin-top: 2em;
+      line-height: 2em;
+    }
+  </style>
 </head>
 
 <body>
-<div class="imgbox">
-    <img class="center-fit" src='https://Planning-and-Objects.github.io/images/solitario/front_cover_big.png'>
-</div>
-<h2><center>
-<a href="https://Planning-and-Objects.github.io/pages/projects.html">Projects</a>
-<br>
-<a href="https://Planning-and-Objects.github.io/pages/writings.html">Writings</a>
-<br>
-<a href="https://Planning-and-Objects.github.io/pages/about.html">About</a>
-<br>
-<a href="https://www.instagram.com/samdwyer/">Contact</a>
-<br><br></center>
-</h2>
+
+  <!-- Fullscreen Cover Image -->
+  <div class="imgbox">
+    <img class="center-fit" src="/images/solitario/front_cover_big.png" alt="Planning and Objects Cover">
+  </div>
+
+  <!-- Simple Navigation -->
+  <div class="nav-links page-content">
+    <h2>
+      <a href="/pages/projects.html">Projects</a><br>
+      <a href="/pages/writings.html">Writings</a><br>
+      <a href="/pages/about.html">About</a><br>
+      <a href="https://www.instagram.com/samdwyer/">Contact</a>
+    </h2>
+  </div>
 
 </body>
 </html>

@@ -1,0 +1,93 @@
+/* Base layout */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif;
+  background-image: url('/images/pink_metal/pm_texture.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #111;
+  text-align: center;
+}
+
+/* Typography */
+h1, h2, h3, p {
+  color: #000;
+  margin: 0.5em 0;
+}
+
+h1, h2, h3 {
+  font-family: inherit;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Responsive Images */
+img, .responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+/* Main content block */
+.page-content, .project-links {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  padding: 2em;
+  margin: 10vh auto 2em;
+  line-height: 1.6em;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer nav */
+.footer-index {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #cf8;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Optional nav bar */
+.navbar {
+  width: 100%;
+  background-color: #000;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 17px;
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
